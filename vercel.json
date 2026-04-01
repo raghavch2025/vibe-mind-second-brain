@@ -1,14 +1,9 @@
 {
   "version": 2,
   "buildCommand": "npm install",
-  "env": {
-    "SUPABASE_URL": "https://vibe-mind-second-brain3.supabase.co",
-    "SUPABASE_SERVICE_KEY": "sb_secret_QWqzkX2bjFZpbG2WzkUmdg_-7wZHoCl",
-    "ANTHROPIC_API_KEY": "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"
-  },
   "functions": {
     "api/index.js": {
-      "runtime": "nodejs18.x"
+      "runtime": "@vercel/node@3"
     }
   },
   "routes": [
