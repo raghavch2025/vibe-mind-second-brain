@@ -1,0 +1,12 @@
+{
+  "name": "vibe-mind-second-brain",
+  "version": "1.0.0",
+  "description": "A backend for Vibe Mind Second Brain",
+  "main": "api/server.js",
+  "scripts": {
+    "start": "node api/server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
