@@ -10,11 +10,11 @@ app.use(cors());
 app.use(express.json());
 
 const supabase = createClient(
-  process.env.SUPABASE_URL,
-  process.env.SUPABASE_SERVICE_KEY
+  process.env.https://mxtpqdlgamotnjefimke.supabase.co,
+  process.env.sb_publishable_Q8yTNyXOlv0oMdB8gPh_HQ_HUX05c_l
 );
 
-const anthropic = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
+const anthropic = new Anthropic({ apiKey: process.env.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 });
 
 const RAGHAV_CONTEXT = `
 You are the AI brain of Raghav's personal second brain system.
